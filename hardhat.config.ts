@@ -16,6 +16,12 @@ export default {
     ropsten: {
       url: `https://ropsten.infura.io/v3/${INFURA_PROJECT_KEY}`,
       accounts: [`0x${PRIVKEY}`]
-    }
+    },
+    testnet: {
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      chainId: 97,
+      gasPrice: 20000000000,
+      accounts: [`0x${PRIVKEY}`]
+    },
   }
 };
